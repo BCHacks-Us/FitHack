@@ -4,77 +4,33 @@
 	Workout page
 	-->
 	<head>
-		<link rel="stylesheet" type="text/css" href="fithack.css" />
 		<script type="text/javascript" src="fithack.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="index.css" type='text/css'>
 		<title>BCFitHack</title>
 	</head>
 	<body>
 		<div id="header"> 
-			<h1> My Weight Workout</h1>
-			<h2> About </h2>
-			<p> Build your own weight workout based on muscle area of interest. Click on your muscle area of interest in order to display exercises related to that muscle
+			<h1 class="text"> My Weight Workout</h1>
+			<h2 class="text"> About </h2>
+			<p class="text"> Build your own weight workout based on muscle area of interest. Click on your muscle area of interest in order to display exercises related to that muscle
 			group. Then, when you are done tell this to print to pdf so you can take our workout with you! </p>
-			<a href="login.php"> Login </a>
-			<a href="workoutlist.php"> Workout list </a>
-			<a href = "reps.php"> Change reps/sets </a>
-			<button id="login"> Login </button>
-			<button id="workout_list"> workout list </button>
-			<button id="reps"> Change reps/sets </button>
+
+			<button type="button" class="btn btn-primary" id='login'>Login</button>
+			
 		</div>
 
 		<div id="body">
-			<h2>Select your muscle group!</h2>
+			<h2 class="text">Click image to select your muscle group!</h2>
 
 			<img id="Image-Maps-Com-image-maps-2016-12-03-151958" src="http://www.image-maps.com/m/private/0/1u0qrnaa5es470olespll0ihf3_cropped-body-image.png" border="0" width="719" height="648" orgWidth="719" orgHeight="648" usemap="#image-maps-2016-12-03-151958" alt="" />
-			<map name="image-maps-2016-12-03-151958" id="ImageMapsCom-image-maps-2016-12-03-151958">
-			<area shape="rect" coords="717,646,719,648" alt="Image Map" style="outline:none;" title="Image Map" href="http://www.image-maps.com/index.php?aff=mapped_users_77957" />
-			<area id="traps" alt="traps" title="trapezius" shape="poly" coords="474,122,492,126,498,149,516,164,524,166,508,176,500,193,500,217,500,228,492,246,477,249,468,229,465,198,464,184,456,176,444,168,454,162,464,156,469,144,472,133" style="outline:none;" target="_self"     />
-				<area id="bi1" alt="bi1" title="Bicep1" href="http://www.image-maps.com/" shape="poly" coords="152,210,166,201,176,196,172,218,162,240,156,249,152,260,142,262,146,233" style="outline:none;" target="_self"     />
-				<area id="bi2" alt="bi2" title="biceps2" href="http://www.image-maps.com/" shape="poly" coords="264,196,278,205,290,212,298,236,300,264,284,266,276,233" style="outline:none;" target="_self"     />
-				<area id="pecs" alt="pecs" title="Pectorals" href="http://www.image-maps.com/" shape="poly" coords="180,192,201,180,232,180,260,190,264,206,260,218,250,224,233,224,206,224,188,226,178,216,178,206" style="outline:none;" target="_self"     />
-				<area id="abs" alt="abs" title="Abdominals" href="http://www.image-maps.com/" shape="poly" coords="202,225,220,216,237,224,237,312,221,330,204,310" style="outline:none;" target="_self"     />
-				<area id="quad1" alt="quad1" title="Quadriceps1" href="http://www.image-maps.com/" shape="poly" coords="184,308,168,350,176,424,208,424,212,401,216,374,218,342" style="outline:none;" target="_self"     />
-				<area id="quad2" alt="quad2" title="Quadriceps2" href="http://www.image-maps.com/" shape="poly" coords="224,341,256,306,276,350,264,424,232,426,232,406,224,378" style="outline:none;" target="_self"     />
-				<area id="delt1" alt="delt1" title="Deltoids1" href="http://www.image-maps.com/" shape="poly" coords="412,210,430,196,446,180,454,173,441,166,426,168" style="outline:none;" target="_self"     />
-				<area id="delt2" alt="delt2" title="Deltoids2" href="http://www.image-maps.com/" shape="poly" coords="512,174,528,166,538,166,548,184,552,212" style="outline:none;" target="_self"     />
-				<area id="tri2" alt="tri2" title="Triceps2" href="http://www.image-maps.com/" shape="poly" coords="530,194,528,218,540,254,562,257,560,236,552,214" style="outline:none;" target="_self"     />
-				<area id="tri1" alt="tri1" title="Triceps1" href="http://www.image-maps.com/" shape="poly" coords="433,198,413,214,408,252,406,260,420,264,430,240,437,220" style="outline:none;" target="_self"     />
-				<area id="hammy1" alt="hammy1" title="Hamstrings1" href="http://www.image-maps.com/" shape="poly" coords="437,446,468,448,472,428,472,408,478,376,480,354,480,345,428,348,432,385,436,404,440,424" style="outline:none;" target="_self"     />
-				<area id="hammy2" alt="hammy2" title="Hamstrings2" href="http://www.image-maps.com/" shape="poly" coords="485,346,540,344,536,370,533,394,529,412,528,426,528,437,493,436,496,410,488,376" style="outline:none;" target="_self"     />
-				<area id="calc1" alt="calf1" title="Calves1" href="http://www.image-maps.com/" shape="poly" coords="438,462,465,464,468,484,464,514,437,516,436,490" style="outline:none;" target="_self"     />
-				<area id="calf2" alt="calf2" title="Calves2" href="http://www.image-maps.com/" shape="poly" coords="500,462,525,468,532,485,529,512,504,516,500,492" style="outline:none;" target="_self"     />
-			</map>
+			
 		</div>
 
-		<div id = "makelist">
-			<form action="makeworkout.php" method="post">
-						<fieldset>
-							<legend>Build a New Workout</legend>
-							<div>
-								<input name="firstname" type="text" size="12" placeholder="first name" autofocus="autofocus" /> 
-								<input name="lastname" type="text" size="12" placeholder="last name" /> 
-								<input name="email" type="text" size="12" placeholder="email" />
-								<input name="workout" type="text" size="12" placeholder="workout name" />
-								<input type="submit" value="go" />
-							</div>
-						</fieldset>
-			</form>
-			<form action="searchworkout.php" method="get">
-				<fieldset>
-					<legend>Search Workout</legend>
-					<div>
-						<input name="firstname" type="text" size="12" placeholder="first name" autofocus="autofocus" /> 
-						<input name="lastname" type="text" size="12" placeholder="last name" /> 
-						<input name="email" type="text" size="12" placeholder="email" />
-						<input name="workout" type="text" size="12" placeholder="workout name" />
-						<input type="submit" value="go" />
-					</div>
-				</fieldset>
-			</form>
-			<
-				</div>
-			</div>
-		<div id="w3c">
+		<div id="infoPage">
+			<h2 class="text">What is Strength and Volume?</h2>
+			
+			<button type="button" class="btn btn-primary" id="infoButton">Click Here!</button>
 		</div>
 	</body>
 </html>
