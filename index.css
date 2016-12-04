@@ -3,24 +3,19 @@ h1, h2, h3, h4, h5 {
 
 }
 
-.btn a:hover {
- text-decoration: none;
-    color: white;
+a {
+	color: white;
 }
 
-.btn a:link {
-    text-decoration: none;
-    color: white;
+#header {
+	padding: 20px;
+	margin-top: 30px;
 }
 
-.btn a {
-    text-decoration: none;
-    color: white;
+.brand-logo {
+	margin-left: 20px;
 }
 
-.goToMustleGroup {
-
-    height: 50px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+#nav-mobile {
+	margin-right: 20px;
 }

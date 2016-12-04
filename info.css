@@ -1,0 +1,23 @@
+#volume {
+    font-family:'Exo 2', sans-serif;
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+#strength {
+    font-family:'Exo 2', sans-serif;
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    border-bottom-style: dashed;
+    border-bottom-color: #ee6e73;
+}
+
+.brand-logo {
+    margin-left: 20px;
+}
+
+#nav-mobile {
+    margin-right: 20px;
+}
