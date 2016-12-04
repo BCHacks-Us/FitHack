@@ -43,7 +43,7 @@ if(isset($_POST["submit"]))
 
 ?>
 
-<form action="" method="post">
+<form action="index.html" method="post">
     email: <input type="text" name="email" '>
     password: <input type="text" name="pass">
     <input type="submit" name="submit">

@@ -6,6 +6,27 @@
  * Time: 6:22 PM
  */
 
+$data = "";
+
+    $muscleGroup= "Abdominal";
+
+    $db = new PDO("mysql:dbname=fithack;host=localhost;", "fithack", "BCHacks01!");
+
+    $rows = $db->query("SELECT e.name 
+	FROM exercise e
+	JOIN muscle_groups g ON g.id = e.muscle_group_id 
+	WHERE g.name like '$muscleGroup';");
+$exercises = array();
+    $i = 0;
+    foreach ($rows as $row) {
+        $exercises[$i]=$row["name"];
+        $data .= "<li><p>
+                <input type=\"checkbox\" id=" . $i . " />
+                <label for=" . $i . ">". $row["name"] ."</label>
+            </p></li>";
+        $i++;
+    }
+
 ?>
 
 <!DOCTYPE html>
@@ -37,7 +58,7 @@ Workout page
 
 <div id="header" class="col s8 offset-s2 card">
     <h1 class="text center-align">AB WORKOUTS</h1>
-    <h5 class="center-align"><a href="workout_select.html">Back to Muscle Group</a></h5>
+    <h5 class="center-align"><a class="h" href="workout_select.html">Back to Muscle Group</a></h5>
     <br>
     <br>
     <br>
@@ -45,6 +66,11 @@ Workout page
     <p class="text"> Build your own weight workout based on muscle area of interest. Click on your muscle area of interest in order to display exercises related to that muscle
         group. Then, when you are done tell this to print to pdf so you can take our workout with you! </p>
 
+    <ul>
+        <?php echo $data; ?>
+    </ul>
+
+    <Button class="btn">Add Workout To List</Button>
 
 </div>
 
