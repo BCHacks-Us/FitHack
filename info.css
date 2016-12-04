@@ -10,4 +10,7 @@
     text-align: center;
     margin-left: 120px;
     margin-right: 120px;
+    border-bottom-style: dashed;
+    border-bottom-color: #ee6e73;
 }
+
