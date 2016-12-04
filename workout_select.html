@@ -34,12 +34,13 @@ Workout page
 
 	<img class="col-s12" id="Image-Maps-Com-image-maps-2016-12-03-151958" src="http://www.image-maps.com/m/private/0/1u0qrnaa5es470olespll0ihf3_cropped-body-image.png" border="0" width="719" height="648" orgWidth="719" orgHeight="648" usemap="#image-maps-2016-12-03-151958" alt="" />
 	<map name="image-maps-2016-12-03-151958" id="ImageMapsCom-image-maps-2016-12-03-151958">
+
 		<area shape="rect" coords="717,646,719,648" alt="Image Map" style="outline:none;" title="Image Map" href="#"index.php?aff=mapped_users_77957" />
-		<area id="traps" alt="traps" title="Trapezius" href="#"" shape="poly" coords="474,122,492,126,498,149,516,164,524,166,508,176,500,193,500,217,500,228,492,246,477,249,468,229,465,198,464,184,456,176,444,168,454,162,464,156,469,144,472,133" style="outline:none;" target="_self"     />
+
 		<area id="bi1" alt="bi1" title="Biceps" href="#"" shape="poly" coords="152,210,166,201,176,196,172,218,162,240,156,249,152,260,142,262,146,233" style="outline:none;" target="_self"     />
 		<area id="bi2" alt="bi2" title="Biceps" href="#"" shape="poly" coords="264,196,278,205,290,212,298,236,300,264,284,266,276,233" style="outline:none;" target="_self"     />
-		<area id="pecs" alt="pecs" title="Pectorals" href="#"" shape="poly" coords="180,192,201,180,232,180,260,190,264,206,260,218,250,224,233,224,206,224,188,226,178,216,178,206" style="outline:none;" target="_self"     />
-		<area id="abs" alt="abs" title="Abdominals" href="#"" shape="poly" coords="202,225,220,216,237,224,237,312,221,330,204,310" style="outline:none;" target="_self"     />
+		<area id="pecs" alt="pecs" title="Pectorals" href="pecs.php"" shape="poly" coords="180,192,201,180,232,180,260,190,264,206,260,218,250,224,233,224,206,224,188,226,178,216,178,206" style="outline:none;" target="_self"     />
+		<area id="abs" alt="abs" title="Abdominals" href="abs.php"" shape="poly" coords="202,225,220,216,237,224,237,312,221,330,204,310" style="outline:none;" target="_self"     />
 		<area id="quad1" alt="quad1" title="Quadriceps" href="#"" shape="poly" coords="184,308,168,350,176,424,208,424,212,401,216,374,218,342" style="outline:none;" target="_self"     />
 		<area id="quad2" alt="quad2" title="Quadriceps" href="#"" shape="poly" coords="224,341,256,306,276,350,264,424,232,426,232,406,224,378" style="outline:none;" target="_self"     />
 		<area id="delt1" alt="delt1" title="Deltoids" href="#"" shape="poly" coords="412,210,430,196,446,180,454,173,441,166,426,168" style="outline:none;" target="_self"     />
@@ -61,6 +62,12 @@ Workout page
 <!--<button type="button" class="btn btn-primary" id="infoButton">Click Here!</button>-->
 <!--</div>-->
 
+<script
+		$(document).ready(function(){
+// the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+$('.modal-trigger').leanModal();
+});
+></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 
 </body>
