@@ -6,3 +6,16 @@ h1, h2, h3, h4, h5 {
 a {
 	color: white;
 }
+
+#header {
+	padding: 20px;
+	margin-top: 30px;
+}
+
+.brand-logo {
+	margin-left: 20px;
+}
+
+#nav-mobile {
+	margin-right: 20px;
+}

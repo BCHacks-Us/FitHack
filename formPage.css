@@ -32,3 +32,11 @@ body {
 .noBulletList {
   list-style-type: none;
 }
+
+.brand-logo {
+  margin-left: 20px;
+}
+
+#nav-mobile {
+  margin-right: 20px;
+}
