@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="141d9048-c861-4eaf-9720-c068a2d60852" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.css___jb_tmp___" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html___jb_tmp___" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml___jb_tmp___" afterPath="$PROJECT_DIR$/.idea/workspace.xml___jb_tmp___" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.css" afterPath="$PROJECT_DIR$/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workout_select.html" afterPath="$PROJECT_DIR$/workout_select.html" />
     </list>
     <ignored path="FitHack.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -280,12 +275,12 @@
       <option name="presentableId" value="Default" />
       <updated>1480800668697</updated>
       <workItem from="1480800669903" duration="8536000" />
-      <workItem from="1480810424306" duration="5309000" />
+      <workItem from="1480810424306" duration="5381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13845000" />
+    <option name="totallyTimeSpent" value="13917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
