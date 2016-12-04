@@ -45,10 +45,6 @@ Workout page
     <p class="text"> Build your own weight workout based on muscle area of interest. Click on your muscle area of interest in order to display exercises related to that muscle
         group. Then, when you are done tell this to print to pdf so you can take our workout with you! </p>
 
-    <!--<button type="button" class="btn btn-primary" id='login'>Login</button>-->
-
-
-    <button class="goToMustleGroup btn col s8 offset-s2"><a href="workout_select.html">Select a Muscle Group</a></button>
 
 </div>
 
