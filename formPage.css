@@ -40,3 +40,20 @@ body {
 #nav-mobile {
   margin-right: 20px;
 }
+
+#exerciseColumnTitle {
+  text-align: center;
+}
+
+#repsColumnTitle {
+  text-align: center;
+}
+
+#setsColumnTitle {
+  text-align: center;
+}
+
+#weightColumnTitle {
+  text-align: center;
+}
+
